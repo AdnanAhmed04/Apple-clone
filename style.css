@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+
+}
+
+/*--------------------- nav elements--------------------- */
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    margin-top: -10px;
+}
+.circular-favicon {
+    border-radius: 50%;
+  }
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*------------------------ nav iamge--------------------- */
+.nav-img {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+}
+
+/* -----------------------search box ------------------------ */
+button[type="submit"] {
+    text-indent: -999px;
+    width: 20px;
+    border: none;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.first-line {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.shop-link {
+    color: rgb(0, 132, 255);
+}
+
+
+/* -----------------------------image1 and links ----------------*/
+.pic1 {
+    width: 70%;
+    height: 70%;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.div-img1 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-color: black;
+    margin-bottom: 12px;
+}
+
+.img1-font {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+h3 {
+    margin-top: 0px;
+    font-size: 30px;
+}
+.img1-link1 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    top: 220px;
+    left: 43%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.img1-link2 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    top: 220px;
+    left: 54%;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+/* -----------------------------image2 and links ----------------*/
+
+.pic2 {
+    width: 70%;
+    height: 70%;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.div-img2 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: -15px;
+    background-color: rgb(246, 249, 251);
+}
+
+.img2-font {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    height: 200px;
+}
+
+.centered1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img2-link1 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    top: 80px;
+    left: 43%;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.img2-link2 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    top: 80px;
+    left: 54%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.img2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.img9 {
+    width: 100%;
+    margin-top: 420px;
+}
+
+/* -----------------------------image3 and links ----------------*/
+.container2 {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 149, 255);
+    height: 200px;
+}
+
+.centered2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img3-link1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 8px;
+    top: 1200px;
+    left: 25%;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.img3-link2 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    top: 80px;
+    left: 43%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.img3-font {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: -10px; */
+    margin-top: 20px;
+}
+
+.img3a-font {
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.img3-font2 {
+    color: rgb(55, 141, 78);
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+
+.img3-part2 {
+    margin-top: 1100px;
+    margin-left: -30px;
+}
+
+.img3-link3 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    top: 180px;
+    left: 54%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.img6-link1 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    left: 0%;
+    top: 65%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.img6-link2 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    top: 65%;
+    bottom: 8px;
+    left: 65%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.img3a-link1 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    bottom: 8px;
+    left: 0%;
+    top: 65%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.img3a-link2 {
+    color: rgb(0, 149, 255);
+    position: absolute;
+    top: 65%;
+    bottom: 8px;
+    left: 100%;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* ------------------------------image 3 kay leye hai ------------------------*/
+.img3 {
+    width: 100%;
+    margin-top: 450px;
+}
+.img4 {
+    width: 100%;
+    height: 553px;
+    margin-top: 1050px;
+    margin-bottom: 10px;
+}
+.img6 {
+    width: 100%;
+    margin-top: 1050px;
+}
+.img5 {
+    width: 100%;
+}
+.img7 {
+    width: 100%;
+    height: 522px;
+}
+.img3 {
+    margin-top: 0px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.container3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer-paragraph {
+    margin-left: 250px;
+    margin-right: 250px;
+    opacity: .75;
+}
+.centered2a {
+    position: absolute;
+    top: 2350px;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.centered3 {
+    position: absolute;
+    top: 2900px;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.centered4 {
+    position: absolute;
+    top: 2900px;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.footer-paragraph2{
+    display: flex;
+    justify-content: center;
+}
